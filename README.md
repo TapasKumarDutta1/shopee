@@ -1,6 +1,11 @@
 # Shopee
 # Best submission
-- Trained models efficientnet-b0,b1,b2,b3 on the entire data with stochastic weight averaging and weighted loss. Trained efficientnet-b0 with group-KFold on labels with stratification on the count of each label. Used KNN with cosine distance 
+Trained models efficientnet-b0,b1,b2,b3 on the entire data with stochastic weight averaging and weighted loss. Trained efficientnet-b0 with group-KFold on labels with stratification on the count of each label. Used KNN with cosine distance to find the nearest neighbor for the embeddings:
+    - taking the 1st 1280 embeddings(b0,b1,b2,b3) and taking the mean 
+    - embeddings for b0,b1,b2,b3
+    - average of the 5-fold embeddings 
+ Final prediction is the union of 1st,3rd with the intersection of predictions from b0,b1 and b2,b3.
+ Used TFIDF for text.
 # Best single model
 # Best text model
 # Best text using bert
