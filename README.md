@@ -9,4 +9,7 @@
 - Implemented a simple neural network to classify is the results of the KNN were correct or not. Trained it with focal loss, binary-crossentropy on the five closest embeddings and the cosine distance from original data and the current image embedding and cosine distance but could not improve score.
 - Tried to implement an xgboost on the same data. It took too much time to train(exceeded 2 hours).
 - Trained the efficientnet-b0 with dynamic arcmargin, weighted loss, gem pooling best was using weighted loss with globalaveragepooling. 
+# References
+- https://www.kaggle.com/c/cdiscount-image-classification-challenge/discussion/45863
+- https://www.kaggle.com/c/cdiscount-image-classification-challenge/discussion/45733
 
