@@ -1,6 +1,7 @@
-# shopee
-# best submission
-# best single model
-# best text model
-# best text using bert
-# thing tried but didn't work
+# Shopee
+# Best submission
+# Best single model
+# Best text model
+# Best text using bert
+# Thing tried but didn't work
+- Tried using [EAST](https://github.com/kurapan/EAST) for ocr 
