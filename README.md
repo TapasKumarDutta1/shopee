@@ -1,6 +1,6 @@
 # Shopee
 ## Best submission
-Trained models efficientnet-b0,b1,b2,b3 on the entire data with stochastic weight averaging and weighted loss. Trained efficientnet-b0 with group-KFold on labels with stratification on the count of each label. Used KNN with cosine distance to find the nearest neighbor for the embeddings:
+Trained models efficientnet-b0,b1,b2,b3 on the entire data with stochastic weight averaging. Trained efficientnet-b0 with group-KFold on labels with stratification on the count of each label. Used KNN with cosine distance to find the nearest neighbor for the embeddings:
 - taking the 1st 1280 embeddings(b0,b1,b2,b3) and taking the mean 
 - embeddings for b0,b1,b2,b3
 - average of the 5-fold embeddings 
