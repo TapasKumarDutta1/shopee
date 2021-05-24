@@ -18,7 +18,7 @@ Final prediction is the union of 1st,3rd with the intersection of predictions fr
 TFIDF for text
 ![alt text](images/best_text.jpg)
 ## Best text using bert
-Trained distil-bert with group-KFold on labels with stratification on the count of each label and stochastic weight averaging.
+Trained distil-bert with stochastic weight averaging.
 ![alt text](images/best_distilbert.jpg)
 ## Thing tried but didn't work
 - Tried using [EAST](https://github.com/kurapan/EAST) for ocr. It gave unsatisfactory results so used the mask extracted from it and concatenated with the original image along the channels for extracting embeddings. For testing using the same procedure gave "Notebook Exceeded Allowed Compute". So created a new model by joining east model with my model such that the input image to model will be the concatenation of mask with the original data and input to east is original data. It gave satisfactory results but took too much time so could not use KFold with it.
