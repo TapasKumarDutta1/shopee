@@ -4,6 +4,7 @@ Trained models efficientnet-b0,b1,b2,b3 on the entire data with stochastic weigh
 - taking the 1st 1280 embeddings(b0,b1,b2,b3) and taking the mean 
 - embeddings for b0,b1,b2,b3
 - average of the 5-fold embeddings 
+
 Final prediction is the union of 1st,3rd with the intersection of predictions from b0,b1 and b2,b3. Used TFIDF for text.
 # Best single model
 # Best text model
