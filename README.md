@@ -10,6 +10,7 @@ Final prediction is the union of 1st,3rd with the intersection of predictions fr
 ## Best single model
 [EAST](https://github.com/kurapan/EAST) for ocr. It took too much time.
 ![alt text](ocr.jpg)
+Sample of output of EAST
 ![alt text](ocr.png)
 ## Best text model
 TFIDF for text
