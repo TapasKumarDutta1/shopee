@@ -21,4 +21,6 @@ Trained distil-bert with group-KFold on labels with stratification on the count 
 ## References
 - https://www.kaggle.com/c/cdiscount-image-classification-challenge/discussion/45863
 - https://www.kaggle.com/c/cdiscount-image-classification-challenge/discussion/45733
+- https://www.kaggle.com/c/landmark-recognition-2020/discussion/187821
+- https://www.kaggle.com/c/landmark-recognition-2020/discussion/187757
 
