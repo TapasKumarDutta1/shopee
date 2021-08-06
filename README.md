@@ -11,9 +11,6 @@ Final prediction is the union of 1st,3rd with the intersection of predictions fr
 [EAST](https://github.com/kurapan/EAST) for ocr. It took too much time.
 ![alt text](images/ocr.jpg)
 
-### Sample of output of EAST
-
-![alt text](images/ocr.png)
 ## Best text model
 TFIDF for text
 ![alt text](images/best_text.jpg)
